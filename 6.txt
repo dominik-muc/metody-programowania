@@ -1,0 +1,3 @@
+wywolajmy test 0 (f ());
+jezeli interpreter uzywa gorliwej kolejnosci, najpierw sprobuje obliczyc argumenty funkcji, i wejdzie w petle probujac obliczyc f ();
+jezeli uzywa leniwej, to zwroci od razu zero, bo instrukcja warunkowa nie dojdzie do miejsca w kodzie, gdzie musimy znac wartosc y;

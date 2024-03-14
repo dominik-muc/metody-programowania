@@ -1,0 +1,6 @@
+wolna x;
+zwiazana: x, wolna: y;
+zwiazana: x, y;
+zwiazana: x, y;
+zwiazana: x, y, wolna: z;
+zwiazana: x, g, z, wolna: z, funkcja: h;

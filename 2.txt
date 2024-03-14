@@ -1,0 +1,10 @@
+nie
+tak: string
+nie
+tak: int -> int
+nie
+tak: int,int -> int
+nie
+tak: int -> int
+nie
+

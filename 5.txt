@@ -1,0 +1,2 @@
+ta funkcja liczy wartosc a + |b|
+jeżeli b > 0 to wstawia znak + między a i b, wpw wstawia -
