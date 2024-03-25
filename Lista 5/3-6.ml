@@ -98,3 +98,16 @@ Załóżmy, że zachodzi P(q) i P(r). Pokażmy, że zachodzi P(NNFConj (q, r)) o
 
 Co kończy dowód.
 *)
+
+type 'v formula =
+| Var of v
+| Neg of 'v formula
+| Conj of 'v formula * 'v formula
+| Disj of 'v formula * 'v formula
+
+let rec to_nnf f =
+  match f with
+  | Var v -> NNFLit(true, v)
+  | Neg p -> neg_nnf (to_nnf p)
+  | Conj (p, q) -> NNFConj(to_nnf p, to_nnf q)
+  | Disj (p, q) -> NNFDisj(to_nnf p, to_nnf q)
