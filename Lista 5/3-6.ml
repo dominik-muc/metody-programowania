@@ -100,7 +100,7 @@ Co kończy dowód.
 *)
 
 type 'v formula =
-| Var of v
+| Var of 'v
 | Neg of 'v formula
 | Conj of 'v formula * 'v formula
 | Disj of 'v formula * 'v formula
