@@ -1,0 +1,15 @@
+Σ = {a, b}
+
+Nieterminale:
+N
+
+Terminale: 
+a, b
+
+Wyprowadzanie:
+N -> 𝜀 | a | b
+N -> aNa
+N -> bNb
+
+Start:
+𝜀 | N
