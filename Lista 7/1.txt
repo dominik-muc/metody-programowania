@@ -1,0 +1,8 @@
+1) związane: x, y; wolne: z
+2) związane: x; wolne y
+3) x związane, x przy +1 wolne
+4) x związane, y zewnetrzne związane, wewnętrzne nie
+5) wszystko związane
+6) wszystko związane
+7) wszystko związane
+8) fib i n związane wewnętrznie ale nie zewnetrznie
