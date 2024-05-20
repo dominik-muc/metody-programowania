@@ -1,0 +1,12 @@
+var x
+var y
+var z
+begin
+    z := 2
+    x := 0
+    y := 1
+    
+    write x
+    write y
+    write z
+end

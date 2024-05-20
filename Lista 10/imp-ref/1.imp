@@ -1,0 +1,15 @@
+var n
+var i
+begin
+    read n
+    i := 2
+    while n >= 2 do
+    begin
+        while n / i * i = n do
+        begin
+            write i
+            n := n / i
+        end
+        i := i + 1
+    end
+end
