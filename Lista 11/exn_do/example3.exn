@@ -1,0 +1,2 @@
+try raise B
+with B -> 42

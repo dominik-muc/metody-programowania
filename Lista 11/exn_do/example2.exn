@@ -1,0 +1,2 @@
+try (fun x -> x) + 42
+with Type_error -> 13
